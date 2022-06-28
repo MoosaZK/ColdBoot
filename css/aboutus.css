@@ -58,106 +58,6 @@ nav ul li a:hover{
     text-shadow:var(--shadow);
 }
 
-/* .checkbtn{
-    font-size: 30px;
-    color: var(--c30);
-    float: right; 
-} */
-
-
-/* Top Container */
-.top-container{
-    display: grid;
-    grid-gap: 20px;
-    background-color: var(--c30);
-    grid-template-areas: 
-    'top-box-a top-box-b';
-    padding: 4rem 0;
-    margin: auto;
-    max-width: 95%;
-}
-.top-box{
-    justify-items: center;
-}
-.top-box-a{
-    grid-area: top-box-a;
-    margin: 2rem 3rem;
-    width: 80%;
-    color: var(--c60);
-}
-.top-box-a h1{
-    font-size:xx-large;
-    color: #05beab;
-    /* font-weight:bolder ; */
-    margin-bottom: 10px;
-}
-.top-box-b{
-    grid-area: top-box-b;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    
-}
-.top-box-b img{
-    height: 90%;
-    width: 90%;
-    border-radius: 100%;
-    border: 10px solid #02478d;
-    /* margin: auto; */
-    /* margin-left: -3rem; */
-}
-
-
-/* Bottom Container */
-.bottom-container{
-    display: grid;
-    grid-gap: 20px;
-    background-color: var(--c30);
-    grid-template-areas: 
-    'bottom-box-b bottom-box-a';
-    padding: 4rem 0;
-    margin: auto;
-    max-width: 95%;
-}
-.bottom-box{
-    justify-items: center;
-    align-items: center;
-}
-.bottom-box-a{
-    grid-area: bottom-box-a;
-    padding: 3rem;
-    color: var(--c60);
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-}
-.bottom-box-a h1{
-    font-size:xx-large;
-    color: #05beab;
-    /* font-weight:bolder ; */
-    margin-bottom: 10px;
-}
-.bottom-box-b{
-    grid-area: bottom-box-b;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-}
-.bottom-box-b img{
-    height: 90%;
-    width: 90%;
-    border-radius: 100%;
-    border: 10px solid #02478d;
-}
-
-
-
-
 
 
 
@@ -178,17 +78,7 @@ footer{
 
 @media(max-width: 700px)
 {
-    .top-container{
-        grid-template-areas: 
-        'top-box-a'
-        'top-box-b';
-        
-    }
-    .bottom-container{
-        grid-template-areas: 
-        'bottom-box-a' 
-        'bottom-box-b';
-    }
+    
     nav{
         grid-template-columns: 1fr;
         justify-content: center;
